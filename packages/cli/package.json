@@ -1,6 +1,6 @@
 {
   "name": "@demo/cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "lib/index",
   "bin": {
     "test-lerna-cli": "./bin/test-lerna-cli.js"
@@ -13,8 +13,8 @@
     "lint": "eslint ./src"
   },
   "dependencies": {
-    "@demo/cli-serve": "^0.0.3",
-    "@demo/cli-utils": "^0.0.3"
+    "@demo/cli-serve": "^0.0.4",
+    "@demo/cli-utils": "^0.0.4"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",

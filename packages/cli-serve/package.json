@@ -1,6 +1,6 @@
 {
   "name": "@demo/cli-serve",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "lib/index",
   "license": "MIT",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint ./src"
   },
   "dependencies": {
-    "@demo/cli-utils": "^0.0.3"
+    "@demo/cli-utils": "^0.0.4"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
