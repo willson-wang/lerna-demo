@@ -1,5 +1,5 @@
 {
-  "name": "@demo/cli-serve",
+  "name": "@mykkty/cli-serve",
   "version": "0.0.4",
   "main": "lib/index",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "lint": "eslint ./src"
   },
   "dependencies": {
-    "@demo/cli-utils": "^0.0.4"
+    "@mykkty/cli-utils": "^0.0.4"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
@@ -18,5 +18,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "05318dea9b06098e0c2391b5677928fa2c2c0484"
 }

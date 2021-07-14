@@ -1,4 +1,4 @@
-import { getToken, getOrgcode } from '@demo/cli-utils';
+import { getToken, getOrgcode } from '@mykkty/cli-utils';
 
 class CreateServer {
   name: string

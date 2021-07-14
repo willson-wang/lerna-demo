@@ -1,4 +1,4 @@
-import { getUid } from '@demo/cli-uid'
+import { getUid } from '@mykkty/cli-uid'
 
 export function getToken(): string {
   return 'JKAl' + getUid();

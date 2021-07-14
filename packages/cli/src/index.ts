@@ -1,5 +1,5 @@
-import { getToken } from '@demo/cli-utils';
-import CreateServer from '@demo/cli-serve';
+import { getToken } from '@mykkty/cli-utils';
+import CreateServer from '@mykkty/cli-serve';
 
 console.log('getToken', getToken());
 

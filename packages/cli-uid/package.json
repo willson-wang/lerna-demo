@@ -1,5 +1,5 @@
 {
-  "name": "@demo/cli-uid",
+  "name": "@mykkty/cli-uid",
   "version": "0.0.4",
   "main": "lib/index",
   "license": "MIT",
@@ -15,5 +15,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "05318dea9b06098e0c2391b5677928fa2c2c0484"
 }
