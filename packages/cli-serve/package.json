@@ -1,6 +1,6 @@
 {
   "name": "@mykkty/cli-serve",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "lib/index",
   "license": "MIT",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint ./src"
   },
   "dependencies": {
-    "@mykkty/cli-utils": "^0.0.5"
+    "@mykkty/cli-utils": "^0.0.6"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
