@@ -3,6 +3,9 @@
   "version": "0.0.6",
   "main": "lib/index",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "echo 3",
     "build": "echo 'uid start' && yarn clean && tsc && echo 'uid end'",

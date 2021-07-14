@@ -6,6 +6,9 @@
     "test-lerna-cli": "./bin/test-lerna-cli.js"
   },
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "echo 1",
     "build": "echo 'cli start' && yarn clean && tsc && echo 'cli end'",
