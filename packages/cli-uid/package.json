@@ -1,6 +1,6 @@
 {
   "name": "@demo/cli-uid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/index",
   "license": "MIT",
   "scripts": {
