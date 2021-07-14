@@ -10,3 +10,7 @@ console.log('serve', serve.orgCode, serve.name, serve.token)
 export default function foo():string  {
   return 'foo'
 }
+
+export function bar(): string {
+  return 'bar'
+}
