@@ -3,7 +3,11 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
+    "version": {
+      "conventionalCommits": true
+    },
     "publish": {
+      "conventionalCommits": true,
       "ignoreChanges": ["ignored-file", "*.md"],
       "message": "chore(release): publish",
       "registry": "https://registry.npmjs.org"
