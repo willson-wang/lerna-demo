@@ -1,6 +1,6 @@
 {
   "name": "@mykkty/cli-uid",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "main": "lib/index",
   "license": "MIT",
   "files": [
