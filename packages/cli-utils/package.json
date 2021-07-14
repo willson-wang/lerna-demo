@@ -1,0 +1,19 @@
+{
+  "name": "@demo/cli-utils",
+  "version": "0.0.1",
+  "main": "lib/index",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo 3",
+    "build": "echo 'utils start' && yarn clean && tsc && echo 'utils end'",
+    "clean": "rimraf -rf ./lib",
+    "lint": "eslint ./src"
+  },
+  "dependencies": {
+    "@demo/cli-uid": "^0.0.1"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.5"
+  }
+}

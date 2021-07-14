@@ -1,0 +1,16 @@
+{
+  "name": "@demo/cli-uid",
+  "version": "0.0.1",
+  "main": "lib/index",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo 3",
+    "build": "echo 'uid start' && yarn clean && tsc && echo 'uid end'",
+    "clean": "rimraf -rf ./lib",
+    "lint": "eslint ./src"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.5"
+  }
+}
