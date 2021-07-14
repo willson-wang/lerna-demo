@@ -1,6 +1,6 @@
 {
   "name": "@mykkty/cli",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": "lib/index",
   "bin": {
     "test-lerna-cli": "./bin/test-lerna-cli.js"
