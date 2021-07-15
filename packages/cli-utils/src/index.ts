@@ -7,3 +7,7 @@ export function getToken(): string {
 export function getOrgcode(): string {
   return getUid();
 }
+
+export function getArr(): number[] {
+  return [1, 2, 3]
+}
