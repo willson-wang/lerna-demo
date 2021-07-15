@@ -11,3 +11,7 @@ export function getOrgcode(): string {
 export function getArr(): number[] {
   return [1, 2, 3]
 }
+
+export function getString(): string {
+  return 'abc'
+}

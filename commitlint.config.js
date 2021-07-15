@@ -1,7 +1,7 @@
 module.exports = {
   // 继承默认配置
   extends: [
-    '@commitlint/config-angular',
+    '@commitlint/config-lerna-scopes',
   ],
   // 自定义规则
   rules: {

@@ -57,6 +57,16 @@
   dependencies:
     "@commitlint/config-angular-type-enum" "^12.1.4"
 
+"@commitlint/config-lerna-scopes@^12.1.4":
+  version "12.1.4"
+  resolved "https://registry.npmjs.org/@commitlint/config-lerna-scopes/-/config-lerna-scopes-12.1.4.tgz#af6786d2a479eb4c90838782368bb3958547327a"
+  integrity sha512-D/VqvATs8fYi2CFpFdjLYeOHGm/KkxUSehGqwIPJfYXHHua19V5UqmUOeXTNAJaD+bTpiHvoBTK75NcmWpBQSg==
+  dependencies:
+    globby "^11.0.1"
+    import-from "3.0.0"
+    resolve-pkg "2.0.0"
+    semver "7.3.5"
+
 "@commitlint/ensure@^12.1.4":
   version "12.1.4"
   resolved "https://registry.nlark.com/@commitlint/ensure/download/@commitlint/ensure-12.1.4.tgz?cache=0&sync_timestamp=1621842172335&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40commitlint%2Fensure%2Fdownload%2F%40commitlint%2Fensure-12.1.4.tgz#287ae2dcc5ccb086e749705b1bd9bdb99773056f"
@@ -2612,7 +2622,7 @@ globals@^13.6.0, globals@^13.9.0:
   dependencies:
     type-fest "^0.20.2"
 
-globby@^11.0.2, globby@^11.0.3:
+globby@^11.0.1, globby@^11.0.2, globby@^11.0.3:
   version "11.0.4"
   resolved "https://registry.nlark.com/globby/download/globby-11.0.4.tgz#2cbaff77c2f2a62e71e9b2813a67b97a3a3001a5"
   integrity sha1-LLr/d8Lypi5x6bKBOme5ejowAaU=
@@ -2805,6 +2815,13 @@ import-fresh@^3.0.0, import-fresh@^3.2.1:
   dependencies:
     parent-module "^1.0.0"
     resolve-from "^4.0.0"
+
+import-from@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/import-from/-/import-from-3.0.0.tgz#055cfec38cd5a27d8057ca51376d7d3bf0891966"
+  integrity sha512-CiuXOFFSzkU5x/CR0+z7T91Iht4CXgfCxVOFRhh2Zyhg5wOpWvvDLQUsWl+gcN+QscYBjez8hDCt85O7RLDttQ==
+  dependencies:
+    resolve-from "^5.0.0"
 
 import-local@^3.0.2:
   version "3.0.2"
@@ -4603,6 +4620,13 @@ resolve-global@1.0.0, resolve-global@^1.0.0:
   integrity sha1-oqed9K8so/Sb93753azTItrRklU=
   dependencies:
     global-dirs "^0.1.1"
+
+resolve-pkg@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/resolve-pkg/-/resolve-pkg-2.0.0.tgz#ac06991418a7623edc119084edc98b0e6bf05a41"
+  integrity sha512-+1lzwXehGCXSeryaISr6WujZzowloigEofRB+dj75y9RRa/obVcYgbHJd53tdYw8pvZj8GojXaaENws8Ktw/hQ==
+  dependencies:
+    resolve-from "^5.0.0"
 
 resolve@^1.10.0, resolve@^1.13.1, resolve@^1.20.0:
   version "1.20.0"
