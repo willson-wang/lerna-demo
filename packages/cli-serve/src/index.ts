@@ -7,7 +7,7 @@ class CreateServer {
   constructor() {
     this.token = getToken()
     this.orgCode = getOrgcode()
-    this.name = 'rose'
+    this.name = 'xiaoming'
   }
 }
 
