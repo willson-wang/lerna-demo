@@ -1,7 +1,7 @@
 module.exports = {
   // 继承默认配置
   extends: [
-    '@commitlint/config-lerna-scopes',
+    '@commitlint/config-conventional',
   ],
   // 自定义规则
   rules: {
@@ -14,6 +14,7 @@ module.exports = {
       'chore',
       'style',
       'revert',
+      'build',
     ]],
     'header-max-length': [0, 'always', 72],
   },
