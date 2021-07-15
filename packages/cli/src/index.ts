@@ -12,5 +12,5 @@ export default function foo():string  {
 }
 
 export function bar(): string {
-  return 'bar'
+  return 'bar' + 'bar'
 }
