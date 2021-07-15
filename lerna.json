@@ -52,5 +52,20 @@
       "registry": "https://registry.npmjs.org",
       "message": "chore: publish"
     }
+  },
+  "changelog": {
+    "repo": "willson-wang/lerna-demo",
+    "labels": {
+      "feat": ":rocket: New Feature",
+      "bug": ":bug: Bug Fix",
+      "doc": ":memo: Documentation",
+      "style": ":sparkles: Styling",
+      "refactor": ":house: Code Refactoring",
+      "build": ":hammer: Build System",
+      "chore": ":mega: Other",
+      "internal": ":house: Internal",
+      "breaking": ":boom: Breaking Change"
+    },
+    "cache": ".changelog"
   }
 }

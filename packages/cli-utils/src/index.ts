@@ -13,5 +13,5 @@ export function getArr(): number[] {
 }
 
 export function getString(): string {
-  return 'abc'
+  return 'abcefg'
 }
