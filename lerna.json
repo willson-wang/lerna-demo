@@ -9,7 +9,6 @@
     "publish": {
       "conventionalCommits": true,
       "ignoreChanges": ["ignored-file", "*.md"],
-      "message": "chore($LERNA_PACKAGE_NAME): publish",
       "registry": "https://registry.npmjs.org"
     }
   }
