@@ -45,18 +45,6 @@
     resolve-global "1.0.0"
     yargs "^16.2.0"
 
-"@commitlint/config-angular-type-enum@^12.1.4":
-  version "12.1.4"
-  resolved "https://registry.nlark.com/@commitlint/config-angular-type-enum/download/@commitlint/config-angular-type-enum-12.1.4.tgz#02f9fd83cb13d1b40b0b2308147059ee0eae1ab5"
-  integrity sha1-Avn9g8sT0bQLCyMIFHBZ7g6uGrU=
-
-"@commitlint/config-angular@^12.1.4":
-  version "12.1.4"
-  resolved "https://registry.nlark.com/@commitlint/config-angular/download/@commitlint/config-angular-12.1.4.tgz#960e394994052201c4ded34713092ec4ea44ce97"
-  integrity sha1-lg45SZQFIgHE3tNHEwkuxOpEzpc=
-  dependencies:
-    "@commitlint/config-angular-type-enum" "^12.1.4"
-
 "@commitlint/config-conventional@^12.1.4":
   version "12.1.4"
   resolved "https://registry.npmjs.org/@commitlint/config-conventional/-/config-conventional-12.1.4.tgz#95bbab622f117a8a3e49f95917b08655040c66a8"
