@@ -8,7 +8,8 @@ name: Node.js Package
 #     branches: main # main 分支提交时触发
 on:
   push:
-    tags
+    tags:
+      - '*/*'
 
 jobs:
   # build:
