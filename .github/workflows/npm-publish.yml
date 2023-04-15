@@ -7,19 +7,19 @@ on:
   push:
     branches: main # main 分支提交时触发
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      - run: npm install pnpm -g
-      - run: pnpm install --registry=https://registry.npmmirror.com
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+#       - uses: actions/setup-node@v3
+#         with:
+#           node-version: 16
+
+      - run:
 
   publish-npm:
-    needs: build
+    # needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -27,6 +27,8 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
+      - run: npm install pnpm -g
+      - run: pnpm install --registry=https://registry.npmmirror.com
       - run: npm run build
       - run: npm run publish-all
         env:

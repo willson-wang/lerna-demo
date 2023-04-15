@@ -2,13 +2,13 @@
 
 ## 简介（Introduction)
  
-lerna monorepo 模版
+lerna 6 monorepo 模版
  
 ## 特性（Feature）
  
 - 规范`commit message`，支持`commit message`检查
 - 集成自动升级版本号与生成`changeLog.md`
-- 集成gitlab-ci自动发布`npm`包
+- 集成github action自动发布`npm`包
 - 开箱即用`scripts`命令
 - 集成`eslint` 检查
 - `lerna`自动管理包依赖
