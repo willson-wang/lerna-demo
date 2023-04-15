@@ -6,10 +6,16 @@ name: Node.js Package
 # on:
 #   push:
 #     branches: main # main 分支提交时触发
+
+# on:
+#   push:
+#     tags:
+#       - '@*/*@*'
+
 on:
   push:
-    tags:
-      - '@*/*@*'
+    paths:
+      - '**/package*.json'
 
 jobs:
   # build:
