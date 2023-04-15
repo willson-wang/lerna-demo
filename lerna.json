@@ -43,7 +43,8 @@
             "section": ":mega: Other",
             "hidden": false
           }
-        ]
+        ],
+        "push": false
       }
     },
     "publish": {
