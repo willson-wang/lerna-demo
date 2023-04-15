@@ -1,6 +1,6 @@
 {
   "name": "@mykkty/cli",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "main": "lib/index",
   "bin": {
     "test-lerna-cli": "./bin/test-lerna-cli.js"
@@ -16,8 +16,8 @@
     "lint": "eslint ./src"
   },
   "dependencies": {
-    "@mykkty/cli-serve": "0.2.9",
-    "@mykkty/cli-utils": "0.1.11"
+    "@mykkty/cli-serve": "0.2.10",
+    "@mykkty/cli-utils": "0.1.12"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
