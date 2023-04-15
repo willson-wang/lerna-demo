@@ -5,8 +5,7 @@ name: Node.js Package
 
 on:
   push:
-    tags:
-      - '*'
+    branches: main # main 分支提交时触发
 
 jobs:
   build:
