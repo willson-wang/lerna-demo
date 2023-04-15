@@ -1,6 +1,7 @@
 {
   "version": "independent",
   "npmClient": "pnpm",
+  "useNx": false,
   "useWorkspaces": true,
   "command": {
     "version": {
