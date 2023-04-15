@@ -3,9 +3,13 @@
 
 name: Node.js Package
 
+# on:
+#   push:
+#     branches: main # main 分支提交时触发
 on:
   push:
-    branches: main # main 分支提交时触发
+    tags:
+      - '*'
 
 jobs:
   # build:
