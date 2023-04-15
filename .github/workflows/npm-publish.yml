@@ -16,6 +16,7 @@ on:
   push:
     paths:
       - '**/package*.json'
+    workflow_dispatch:
 
 jobs:
   # build:
@@ -36,6 +37,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
+      - run: git --no-pager tag --sort version:refname --points-at HEAD --list "*@*"
       - run: npm install pnpm -g
       - run: pnpm install --registry=https://registry.npmmirror.com
       - run: npm run build
