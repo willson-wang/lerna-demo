@@ -7,13 +7,15 @@
   "scripts": {
     "test": "lerna run test",
     "build": "lerna run build",
-    "lint": "lerna run lint"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+    "lint": "lerna run lint",
+    "prepare": "husky install",
+    "setPushFollowTags": "echo '本地项目设置git push代码时自动push tag' && git config push.followtags true",
+    "version:pre": "echo '发布预发布beta版本' && HUSKY=1 lerna version prerelease --preid beta --exact --force-publish --yes",
+    "version:patch": "echo '发布补丁版本' && HUSKY=1 lerna version patch --exact --force-publish --yes",
+    "version:minor": "echo '发布小版本' && HUSKY=1 lerna version minor --exact --force-publish --yes",
+    "version:major": "echo '发布主版本' && HUSKY=1 lerna version major --exact --force-publish --yes",
+    "version:force": "echo '发布主版本' && HUSKY=1 lerna version --force-publish --exact --yes",
+    "publish-all": "lerna publish from-git --yes"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
@@ -22,19 +24,19 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/config-conventional": "^12.1.4",
-    "@commitlint/config-lerna-scopes": "^12.1.4",
-    "@typescript-eslint/eslint-plugin": "^4.27.0",
-    "@typescript-eslint/parser": "^4.27.0",
-    "eslint": "^7.28.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": "4.3.8",
-    "lerna": "^4.0.0",
-    "lerna-changelog": "^1.0.1",
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
+    "@commitlint/config-lerna-scopes": "^17.4.2",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.3",
+    "lerna": "^6.6.1",
+    "lerna-changelog": "^2.2.0",
     "lint-staged": "10.5.4"
   }
 }
