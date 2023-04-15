@@ -9,7 +9,7 @@ name: Node.js Package
 on:
   push:
     tags:
-      - '*'
+      - '**' // https://stackoverflow.com/questions/61891328/trigger-github-action-only-on-new-tags
 
 jobs:
   # build:
