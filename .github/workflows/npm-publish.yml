@@ -33,10 +33,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          fetch-depth: '0'
           registry-url: https://registry.npmjs.org/
       - run: git --no-pager tag --sort version:refname --points-at HEAD --list "*@*"
       - run: npm install pnpm -g
