@@ -15,7 +15,7 @@
     "version:minor": "echo '发布小版本' && HUSKY=1 lerna version minor --exact --force-publish --yes",
     "version:major": "echo '发布主版本' && HUSKY=1 lerna version major --exact --force-publish --yes",
     "version:force": "echo '发布主版本' && HUSKY=1 lerna version --force-publish --exact --yes",
-    "publish-all": "lerna publish from-git --yes"
+    "publish-all": "lerna publish from-git --no-verify-access --yes"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
